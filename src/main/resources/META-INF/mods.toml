@@ -1,0 +1,25 @@
+modLoader="javafml" 
+loaderVersion="[44,)"
+issueTrackerURL="https://github.com/noobanidus/createstuffadditionsfix/issues"
+license="https://github.com/noobanidus/createstuffadditionsfix/blob/1.20.1/LICENSE"
+[[mods]] 
+modId="createstuffadditionsfix"
+version="${version}"
+displayName="CreateStuffAdditionsFix"
+displayURL="https://minecraft.curseforge.com/projects/createstuffadditionsfix"
+authors="Noobanidus"
+description='''
+Fixes itemstacks randomly gaining empty NBT tags.
+'''
+[[dependencies.CreateStuffAdditionsFix]]
+    modId="forge" 
+    mandatory=true 
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.CreateStuffAdditionsFix]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,)"
+    ordering="NONE"
+    side="BOTH"

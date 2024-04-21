@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "noobanidus.mods.createstuffadditionsfix.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "createstuffadditionsfix.refmap.json",
+  "mixins": [
+    "MixinFuelAndFillPrProcedure"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}
